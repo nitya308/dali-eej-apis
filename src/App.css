@@ -1,5 +1,54 @@
+.pink-box{
+  background-color: #FFFFC5;
+  width: 90%;
+  margin: auto;
+  padding: 20px;
+  margin-bottom: 30px;
+  border: lightcoral solid 5px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+
+  h1 {
+    font-size: 20px;
+    margin-right: 20px;
+  }
+
+  button {
+    background-color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    height: 40px;
+  }
+
+}
+
+.done-box{
+  background-color: #282c34;
+}
+
+.button-container {
+  display: flex;
+  gap: 20px;
+  margin-left: auto;
+}
+
+.input-container {
+  display: flex;
+  gap: 20px;
+  margin-left: auto;
+  background-color: lightblue;
+  padding: 50px;
+  margin-bottom: 50px;
+}
+
+body {
+  box-sizing: border-box;
+}
+
 .App {
   text-align: center;
+  box-sizing: border-box;
 }
 
 .App-logo {
@@ -35,4 +84,11 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.progress-div {
+  display: flex;
+  justify-content: center;
+  height: 200px;
+  margin-bottom: 50px;
 }
